@@ -1,0 +1,1169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/assets/style/index.less">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+
+<body>
+  <div>
+    <div class="grid grid-cols-3 gap-5">
+      <div class="logo logo-width-1  d-lg-none">
+        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="logo">
+      </div>
+      <div class="">
+        <div class="w-full flex relative mt-3 h-12  ">
+          <form action="#"
+            class="border-solid border-2 border-green-300 bg-white max-w-3xl rounded-md w-[600px] block ">
+            <select class="select-active mt-2">
+              <option>
+                <p>All Categories</p>
+              </option>
+              <option>Milks and Dairies</option>
+              <option>Wines & Alcohol</option>
+              <option>Clothing & Beauty</option>
+              <option>Pet Foods & Toy</option>
+              <option>Fast food</option>
+              <option>Baking material</option>
+              <option>Vegetables</option>
+              <option>Fresh Seafood</option>
+              <option>Noodles & Rice</option>
+              <option>Ice cream</option>
+            </select>
+            <input class="max-w-2xl border-none bg-white shadow-none rounded-md w-[420px] " type="text"
+              placeholder="Search for items..." />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="fixed bg-white w-full z-50" id="scrollFixed">
+        <div class="flex items-center justify-between gap-5 border h-28">
+          <div class=" ml-10">
+            <div class="bg-green-700 text-white w-60 h-12 text-center m-[5px]  mt-3 rounded text-base">
+              <div class="flex justify-center text-center">
+                <span class="items-center justify-center flex m-3  text-xl">Browse All Categories <i
+                    class="fa-solid fa-angle-down"></i></i></span>
+
+              </div>
+            </div>
+
+            <div class="categories-dropdown-wrap hidden font-heading">
+              <div class="flex categori-dropdown-inner">
+                <ul>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                      alt="">Milks
+                    and
+                    Dairies
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-2.svg"
+                      alt="">Clothing
+                    &amp; beauty
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-3.svg" alt="">Pet
+                    Foods
+                    &amp; Toy
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-4.svg"
+                      alt="">Baking
+                    material
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-5.svg"
+                      alt="">Fresh
+                    Fruit
+                  </li>
+                </ul>
+                <ul class="end">
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-6.svg"
+                      alt="">Wines
+                    &amp;
+                    Drinks
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-7.svg"
+                      alt="">Fresh
+                    Seafood
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-8.svg"
+                      alt="">Fast
+                    food
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-9.svg"
+                      alt="">Vegetables
+                  </li>
+                  <li>
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-10.svg"
+                      alt="">Bread
+                    and
+                    Juice
+                  </li>
+                </ul>
+              </div>
+              <div class="more_slide_open" style="display: none">
+                <div class="d-flex categori-dropdown-inner">
+                  <ul>
+                    <li>
+                      <a href="shop-grid-right.html"> <img
+                          src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-1.svg" alt="">Milks
+                        and
+                        Dairies</a>
+                    </li>
+                    <li>
+                      <a href="shop-grid-right.html"> <img
+                          src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-2.svg"
+                          alt="">Clothing
+                        &amp;
+                        beauty</a>
+                    </li>
+                  </ul>
+                  <ul class="end">
+                    <li>
+                      <a href="shop-grid-right.html"> <img
+                          src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-3.svg" alt="">Wines
+                        &amp;
+                        Drinks</a>
+                    </li>
+                    <li>
+                      <a href="shop-grid-right.html"> <img
+                          src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-4.svg" alt="">Fresh
+                        Seafood</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="more_categories"><span class="icon"></span> <span class="heading-sm-1">Show more...</span>
+              </div>
+            </div>
+          </div>
+          <div class="mt-3 ">
+            <nav>
+              <ul class="flex items-center gap-16 text-xl">
+                <li class="hot-deals"><a href="shop-grid-right.html">Deals <i
+                      class="fa-solid fa-angle-down"></i></i></a></li>
+                <li>
+                  <a class="active" href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+                <li>
+                  About <i class="fa-solid fa-angle-down"></i></i>
+                </li>
+                <li>
+                  Shop <i class="fa-solid fa-angle-down"></i></i>
+
+                </li>
+                <li>
+                  Vendors <i class="fa-solid fa-angle-down"></i></i>
+                </li>
+                <li class="position-static">
+                  <a href="#">Mega menu <i class="fa-solid fa-angle-down"></i></i></a>
+                </li>
+                <li>
+                  Blog <i class="fa-solid fa-angle-down"></i></i>
+
+                </li>
+                <li>
+                  Pages <i class="fa-solid fa-angle-down"></i></i>
+
+                </li>
+                <li>
+                  Contact
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class=" items-center mt-2 mr-12 ">
+            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg" alt="">
+            <p class="text-green-500 text-xl">1900 - 888</p>
+            <span class="text-sm">24/7 Support Center</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-40">
+      <div class="mt-4 grid grid-col-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
+          <div class="">
+            <div class="flex justify-end">
+              <h3 class="bg-red-500 rounded-bl-2xl rounded-tr-2xl px-5 py-1 text-slate-100">Mall</h3>
+            </div>
+            <div class="ps-5 pe-5 pt-5">
+              <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-1.png" alt="">
+            </div>
+          </div>
+          <div class="p-4 mb-3">
+            <span>Since 2012</span>
+            <div class="row flex justify-between">
+              <div class="me-5">
+                <h2 class="font-bold text-3xl hover:text-green-600 cursor-pointer">Nature Food</h2>
+                <span class="font-thin text-slate-400">
+                  <span class="text-xs text-amber-300">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                  (4.0)
+                </span>
+              </div>
+              <div class="">
+                <span class="border bg-green-200 px-3 py-1 text-green-700 font-semibold rounded">380 products</span>
+              </div>
+            </div>
+          </div>
+          <div class="mx-4 mb-3">
+            <ul>
+              <li>
+                <h3><span><i class="fa-solid fa-location-dot text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Address: </span>5171 W Campbell Ave undefined Kent, Utah
+                  53127 United States</h3>
+              </li>
+              <li>
+                <h3><span><i class="fa-solid fa-headphones-simple text-lime-500 me-2"></i></span><span
+                    class="font-bold text-gray-800">Call
+                    Us:</span> (+91) - 540-025-124553</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="mx-6 my-6">
+            <button class="btn btn-green transition duration-700">
+              Visit store <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="m font-bold text-3xl ml-8 font-[Quicksand] m-10 overflow-visible">Deals of the day</h3>
+    </div>
+    <div class="flex justify-between text-center mb-10 ml-28 mr-28 ">
+      <div class=" mt-3 ml-14  group flex text-center  ">
+        <div class="relative text-center ">
+          <img class="  rounded-3xl" src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png"
+            alt="">
+          <div
+            class=" items-center justify-center top-2/4  absolute left-[10%] transition-transform transform-cpu hover:translate-y-[-5px]  ">
+            <div class="flex pb-3 ml-12 ">
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="days"></span>
+                <span class="block text-xl"> Days</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl"
+                  id="hours"></span>
+                <span class="block text-xl">Hours</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="minutes"></span>
+                <span class="block text-xl">Mins</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl "
+                  id="seconds"></span>
+                <span class="block text-xl">Secs</span>
+              </div>
+            </div>
+  
+            <div class="bg-white rounded-xl border border-solid  block mr-12  pb-10 w-72 h-72 text-start">
+              <div class="p-4 mb-3">
+                <span>Since 2012</span>
+                <div class="row flex justify-between">
+                  <div class="me-5">
+                    <h2 class="font-bold text-sm hover:text-green-600 cursor-pointer">Seeds of Change Organic Quinoa,
+                      Brown, & Red Rice</h2>
+                    <span class="font-thin text-slate-400">
+                      <span class="text-xs text-amber-300">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                      (4.0)
+                    </span>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="mx-4 mb-3">
+                <ul>
+                  <li>
+                    <h3><span class="font-bold text-gray-800">By </span>NestFood</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="ml-4 justify-between text-center flex">
+                <div>
+                  <span class="font-bold text-green-400">
+                    $32.82
+                  </span>
+                  
+                    <span class="line-through absolute inset-y1/2 h-0.5 ml-4">
+                    $34.82
+                  </span>
+                
+                 
+                </div>
+                <div class="mx-6 my-6">
+                  <button class="btn btn-green transition duration-700 bg-green-400">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class=" mt-3 ml-14  group flex text-center  ">
+        <div class="relative text-center ">
+          <img class="  rounded-3xl" src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png"
+            alt="">
+          <div
+            class=" items-center justify-center top-2/4  absolute left-[10%] transition-transform transform-cpu hover:translate-y-[-5px]  ">
+            <div class="flex pb-3 ml-12 ">
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="days"></span>
+                <span class="block text-xl"> Days</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl"
+                  id="hours"></span>
+                <span class="block text-xl">Hours</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="minutes"></span>
+                <span class="block text-xl">Mins</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl "
+                  id="seconds"></span>
+                <span class="block text-xl">Secs</span>
+              </div>
+            </div>
+  
+            <div class="bg-white rounded-xl border border-solid  block mr-12  pb-10 w-72 h-72 text-start">
+              <div class="p-4 mb-3">
+                <span>Since 2012</span>
+                <div class="row flex justify-between">
+                  <div class="me-5">
+                    <h2 class="font-bold text-sm hover:text-green-600 cursor-pointer">Seeds of Change Organic Quinoa,
+                      Brown, & Red Rice</h2>
+                    <span class="font-thin text-slate-400">
+                      <span class="text-xs text-amber-300">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                      (4.0)
+                    </span>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="mx-4 mb-3">
+                <ul>
+                  <li>
+                    <h3><span class="font-bold text-gray-800">By </span>NestFood</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="ml-4 justify-between text-center flex">
+                <div>
+                  <span class="font-bold text-green-400">
+                    $32.82
+                  </span>
+                  
+                  <span class="line-through absolute inset-y1/2 h-0.5 ml-4">
+                    $34.82
+                  </span>
+                </div>
+                <div class="mx-6 my-6">
+                  <button class="btn btn-green transition duration-700 bg-green-400">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class=" mt-3 ml-14  group flex text-center  ">
+        <div class="relative text-center ">
+          <img class="  rounded-3xl" src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png"
+            alt="">
+          <div
+            class=" items-center justify-center top-2/4  absolute left-[10%] transition-transform transform-cpu hover:translate-y-[-5px]  ">
+            <div class="flex pb-3 ml-12 ">
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="days1"></span>
+                <span class="block text-xl"> Days</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl"
+                  id="hours1"></span>
+                <span class="block text-xl">Hours</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="minutes1"></span>
+                <span class="block text-xl">Mins</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl "
+                  id="seconds1"></span>
+                <span class="block text-xl">Secs</span>
+              </div>
+            </div>
+  
+            <div class="bg-white rounded-xl border border-solid block mr-12  pb-10 text-start">
+              <div class="p-4 mb-3">
+                <span>Since 2012</span>
+                <div class="row flex justify-between">
+                  <div class="me-5">
+                    <h2 class="font-bold text-sm hover:text-green-600 cursor-pointer">Seeds of Change Organic Quinoa,
+                      Brown, & Red Rice</h2>
+                    <span class="font-thin text-slate-400">
+                      <span class="text-xs text-amber-300">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                      (4.0)
+                    </span>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="mx-4 mb-3">
+                <ul>
+                  <li>
+                    <h3><span class="font-bold text-gray-800">By </span>NestFood</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="ml-4 justify-between text-center flex">
+                <div>
+                  <span class="font-bold text-green-400">
+                    $32.82
+                  </span>
+                  
+                  <span class="line-through absolute inset-y1/2 h-0.5 ml-4">
+                    $34.82
+                  </span>
+                </div>
+                <div class="mx-6 my-6">
+                  <button class="btn btn-green transition duration-700 bg-green-400">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      <div class=" mt-3 ml-14  group flex text-center mr-14 ">
+        <div class="relative text-center ">
+          <img class=" rounded-3xl" src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png"
+            alt="">
+          <div
+            class=" items-center justify-center top-2/4  absolute left-[10%] transition-transform transform-cpu hover:translate-y-[-5px]  ">
+            <div class="flex pb-3 ml-12 ">
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="days2"></span>
+                <span class="block text-xl"> Days</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl"
+                  id="hours2"></span>
+                <span class="block text-xl">Hours</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px]  text-xl"
+                  id="minutes2"></span>
+                <span class="block text-xl">Mins</span>
+              </div>
+              <div class="bg-white mr-3 w-20 h-14 rounded-xl">
+                <span class="block text-green-500 transition-transform transform-cpu hover:translate-y-[-5px] text-xl "
+                  id="seconds2"></span>
+                <span class="block text-xl">Secs</span>
+              </div>
+            </div>
+  
+            <div class="bg-white rounded-xl   border border-solid block mr-12  pb-10 text-start">
+              <div class="p-4 mb-3">
+                <span>Since 2012</span>
+                <div class="row flex justify-between">
+                  <div class="me-5">
+                    <h2 class="font-bold text-sm hover:text-green-600 cursor-pointer">Seeds of Change Organic Quinoa,
+                      Brown, & Red Rice</h2>
+                    <span class="font-thin text-slate-400">
+                      <span class="text-xs text-amber-300">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </span>
+                      (4.0)
+                    </span>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="mx-4 mb-3">
+                <ul>
+                  <li>
+                    <h3><span class="font-bold text-gray-800">By </span>NestFood</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="ml-4 justify-between text-center flex">
+                <div>
+                  <span class="font-bold text-green-400">
+                    $32.82
+                  </span>
+                  
+                  <span class="line-through absolute inset-y1/2 h-0.5 ml-4">
+                    $34.82
+                  </span>
+                </div>
+                <div class="mx-6 my-6">
+                  <button class="btn btn-green transition duration-700 bg-green-400">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Add
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center font-[Lato] mt-40  ">
+      <h3 class="mt-5 font-bold text-4xl ml-8 font-[Quicksand]">Shop by Categories</h3>
+      <span class="ml-6 mt-8 text-xl  text-zinc-500  hover:text-green-600">All category <i
+          class="fa-solid fa-chevron-right"></i></span>
+    </div>
+
+    <div class="swiper mySwiper items-center mt-5 mb-5  w-full">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-10.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-9.svg" alt="">
+            <h6 class="m-5 ">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-8.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-7.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-6.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-5.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-4.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-3.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center  bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-2.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+        <div
+          class="swiper-slide text-center bg-zinc-100 ml-10 w-full rounded-xl h-48 hover:bg-white hover:border border-green-300 ">
+          <div class="">
+            <img class="ml-14 m "
+              src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg" alt="">
+            <h6 class="m-5">Vegetables <br>
+              & tubers
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+  </div>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var fixedElement = document.getElementById("scrollFixed");
+    window.addEventListener("scroll", function () {
+      var scrollPosition = window.scrollY || window.pageYOffset;
+
+      if (scrollPosition === 0) {
+        fixedElement.classList.remove("top-0");
+
+      } else {
+        fixedElement.classList.add("top-0");
+      }
+    });
+  });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const targetDate = new Date("2024-12-31T23:59:59");
+
+    function updateCountdown() {
+      const currentDate = new Date();
+      const timeDifference = targetDate - currentDate;
+
+      if (timeDifference > 0) {
+        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+      } else {
+        document.getElementById("days").innerHTML = "Countdown expired!";
+        document.getElementById("hours").innerHTML = "";
+        document.getElementById("minutes").innerHTML = "";
+        document.getElementById("seconds").innerHTML = "";
+      }
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    const targetDate = new Date("2026-12-31T23:59:59");
+
+    function updateCountdown() {
+      const currentDate = new Date();
+      const timeDifference = targetDate - currentDate;
+
+      if (timeDifference > 0) {
+        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+        document.getElementById("days2").innerHTML = days ;
+        document.getElementById("hours2").innerHTML = hours ;
+        document.getElementById("minutes2").innerHTML = minutes ;
+        document.getElementById("seconds2").innerHTML = seconds ;
+      } else {
+        document.getElementById("days2").innerHTML = "Countdown expired!";
+        document.getElementById("hours2").innerHTML = "";
+        document.getElementById("minutes2").innerHTML = "";
+        document.getElementById("seconds2").innerHTML = "";
+      }
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    const targetDate = new Date("2025-12-31T23:59:59");
+
+    function updateCountdown() {
+      const currentDate = new Date();
+      const timeDifference = targetDate - currentDate;
+
+      if (timeDifference > 0) {
+        const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+        document.getElementById("days1").innerHTML = days ;
+        document.getElementById("hours1").innerHTML = hours ;
+        document.getElementById("minutes1").innerHTML = minutes ;
+        document.getElementById("seconds1").innerHTML = seconds;
+      } else {
+        document.getElementById("days1").innerHTML = "Countdown expired!";
+        document.getElementById("hours1").innerHTML = "";
+        document.getElementById("minutes1").innerHTML = "";
+        document.getElementById("seconds1").innerHTML = "";
+      }
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  });
+  
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 7,
+    spaceBetween: 40,
+    centeredSlides: false,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+</script>
+
+</html>
