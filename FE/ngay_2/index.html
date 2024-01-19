@@ -194,6 +194,64 @@
         </div>
       </div>
     </div>
+    <div class="mt-52">
+       <div class=" swiper mySwiper2 items-center ">
+          <div class=" swiper-wrapper ">
+            <div
+              class=" swiper-slide text-start  ">
+              <div class="rounded-2xl bg-cover bg-center  bg-[url(https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-4.png)]  w-[1100px] h-[500px] ml-32">
+                
+                <div class="">
+                  <h1 class=" font-bold ml-12 text-6xl  mb-12 ">Snack box daily save 
+                
+                  </h1>
+                </div>
+                <span class="ml-12 text-3xl text-slate-500">save up to 50% off on your first oder</span>
+                <div class="ml-12 mt-48  text-center  flex">
+                  <i class="fa-regular fa-paper-plane absolute ml-3 mt-6"></i>
+                  <input class="w-80 h-16 rounded-3xl border-none p-8 " type="text" placeholder=" Your email address">
+                  <button class="mr-10 absolute bg-green-500 inset-x-[440px] hover:bg-green-600 w-40 h-16 rounded-3xl text-white px-4 py-2 pr-10">
+                    Subscribe
+                  </button>
+                </div>
+                
+              </div>
+            </div>
+            <div
+              class=" swiper-slide text-start ">
+              <div class=" rounded-2xl bg-cover bg-center bg-[url(https://wp.alithemes.com/html/nest/demo/assets/imgs/slider/slider-3.png)]  w-[1100px] h-[500px] ml-32">
+                
+                <div>
+                  <h1 class="m-5 font-bold text-6xl ml-12">Fure coffe big discount 
+                
+                  </h1>
+                </div>
+                  <span class="ml-12 text-3xl text-slate-500">save up to 50% off on your first oder</span>
+                  <div class="ml-12 mt-48  text-center  flex">
+
+                    <i class="fa-regular fa-paper-plane absolute ml-3 mt-6"></i>
+                    <input class="w-80 h-16 rounded-3xl border-none p-8 " type="text" placeholder=" Your email address">
+                    <button class="mr-10 absolute bg-green-500 inset-x-[440px] hover:bg-green-600 w-40 h-16 rounded-3xl text-white px-4 py-2 pr-10">
+                      Subscribe
+                    </button>
+                  </div>
+              </div>
+            </div>
+          
+          </div>      
+        </div>      
+      </div>
+
+      <div class="bg-[url(https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-11.png)]">
+        <h1 class="m-5 font-bold text-6xl ml-12">Fure coffe big discount 
+                
+        </h1>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+    
+
+    </div>
     <div class="mt-40 ml-28 mr-28">
       <div class="mt-4 grid grid-col-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div class=" border rounded-2xl hover:shadow-2xl transition duration-400 ">
@@ -1339,6 +1397,17 @@
       prevEl: ".swiper-button-prev",
     },
   });
+
+    var swiper = new Swiper(".mySwiper2", {
+      loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
 
 </script>
 
